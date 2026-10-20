@@ -68,9 +68,6 @@ async def load_mcp_tools() -> list[Any]:
     return await client.get_tools()
 
 
-# ---------------------------------------------------------------------------
-# Task 1 solution: agent definition and scoring helpers (student code).
-# ---------------------------------------------------------------------------
 
 VERIFIER_SYSTEM_PROMPT = """You are CV-Verify, a meticulous background-check agent used by a recruitment team. You verify the claims in one CV against the candidate's public LinkedIn and Facebook profiles, which you can only access through the six provided tools. No other source of information exists.
 
