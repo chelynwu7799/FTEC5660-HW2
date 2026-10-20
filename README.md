@@ -197,5 +197,3 @@ lack data/command separation; Layer 3 mops up the remainder. Against my own hard
 Task 1 agent (which ignores instructions in CV text and never compares descriptions),
 the CV scores 0.95 — the same ceiling an honest CV reaches — confirming that the
 false details survive even a verifier designed to resist exactly this attack.
-
-Tested locally with `python3 hw2.py --cv-folder task2`.
